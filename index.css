@@ -1,0 +1,2987 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+.nav-link, .dropdown-item {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.center-mode-carousel .carousel-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.center-mode-carousel .carousel-item {
+    display: flex;
+    align-items: center;
+}
+
+.pet-description {
+    background-color: #00bcd4;
+}
+
+.location-address {
+    margin-left: -40px;
+}
+
+.radio-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.radio-form div {
+    margin: 10px;
+}
+
+.radio-form label {
+    margin-left: 5px;
+}
+
+.see {
+    font-weight: 600;
+}
+
+.see:hover {
+    background-color: #1ac8db;
+    color: #fff;
+}
+
+.px-3.nav-item:hover {
+    background-color: #8c8c8c1f;
+}
+
+.vetavailable {
+    padding-top: 12rem;
+}
+
+.filter {
+    color: #1ac8db;
+    background: transparent;
+    padding: .5rem .75rem;
+    border: 1px solid #1ac8db;
+    width: 100%;
+    max-width: 150px;
+}
+
+.filter:hover {
+    color: #FFF;
+    background: #1ac8db;
+}
+
+.text-blue {
+    color: #03e6f4;
+    font-weight: 500;
+}
+
+.text-dark-blue {
+    color: #114db2;
+    font-weight: 500;
+}
+
+.react-calendar {
+    margin: auto;
+    border: none !important;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+    font-family: 'Poppins', sans-serif;
+}
+
+abbr[title] {
+    text-decoration: none;
+}
+
+button.react-calendar__tile.react-calendar__month-view__days__day {
+    font-size: 12px;
+}
+
+.react-calendar__tile--active {
+    background: #1ac8db !important;
+    color: white;
+}
+
+.react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus {
+    background: #1ac8db !important;
+
+}
+
+.money {
+    color: #1ac8db;
+}
+
+.time {
+    background-color: white;
+    border: 1px solid #8080804f;
+    border-radius: 10px;
+}
+
+.radio-btnsss {
+
+    position: relative;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    height: 65px;
+    border-radius: 15px;
+    border: 1px solid #bbe1eaba;
+
+}
+
+.see-more {
+    font-size: 12px;
+    color: #afa0a0;;
+}
+
+.labelexpanded input:checked + .radio-btnsss {
+    background-color: #1ac8db;
+    color: #fff;
+}
+
+.time:hover {
+    color: #fff;
+    background-color: #1ac8db;
+}
+
+.cta-dd {
+    background-color: #1ac8db !important;
+    color: #fff;
+    padding: 0.5rem !important;
+    font-size: 13px !important;
+    border-radius: 5rem !important;
+    padding: 4px 40px 6px 40px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.review-name {
+    font-size: 14px;
+}
+
+.bio-desc {
+    font-size: 15px;
+    color: #808080;
+}
+
+.rate-walk {
+    color: #87d0ff;
+    font-size: 30px;
+}
+
+.doc-card:hover {
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+body.modal-open {
+    padding-right: 0px !important;
+}
+
+body.swal2-shown {
+    padding-right: 0px !important;
+}
+
+.pet-desc {
+    padding-right: 40px;
+    border-right: 1px solid #d8d8d8;
+
+}
+
+body, html {
+    width: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.ff {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-monserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.color-white {
+    color: #fff;
+}
+
+.cta-q {
+    margin-left: 4rem;
+}
+
+.w-q {
+    width: 59%;
+}
+
+.q-sec {
+    padding: 4rem 0rem 4rem 4rem;
+}
+
+.black {
+    color: #000;
+}
+
+.group {
+    height: 30px;
+    width: 70px;
+    padding: 10px;
+    /* margin: auto; */
+    border-radius: 6px;
+    color: white;
+    background: #084958;
+    justify-content: space-between;
+}
+
+.group::after {
+    display: none;
+}
+
+.group .user-icon {
+    margin-top: -2px;
+}
+
+.group .menu-icon {
+    margin-top: 2px;
+}
+
+.group-2 {
+    height: 2rem;
+    padding: 6px 14px 7px 14px;
+    margin: auto;
+    border-radius: 12px;
+    color: white;
+    background: #084958;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.main-header {
+    left: 0;
+    position: absolute;
+    background-color: blanchedalmond;
+    z-index: 99;
+    background-color: transparent;
+    width: 100%;
+    transition: all 0.4s ease;
+}
+
+.bg-dark-primary {
+    background-color: #084958 !important;
+}
+
+.bg-light-primary {
+    background-color: #1ac6da !important;
+}
+
+.text-truncate-multiple {
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Home-Book Appointment page */
+.main {
+    background-image: url('../src/img/main-banner-2.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 8rem;
+}
+
+.main-1 {
+    height: 88vh;
+}
+
+.main-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.left {
+    background-image: url('../src/img/think-1.png');
+    background-position: center;
+    background-size: contain;
+    margin-top: 1rem;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 250px;
+    padding: 3rem 2rem 4rem 0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
+
+.left-a {
+    margin-top: 2rem;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 2rem 2rem 2rem 0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+
+.w-a {
+    width: 60%;
+}
+
+.para-pet {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    max-width: 450px;
+}
+
+.right {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 800; */
+    color: #fff;
+    text-align: center;
+}
+
+.right-a {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 800; */
+    color: #fff;
+    text-align: left;
+}
+
+.cta-filter {
+    background-color: #084958 !important;
+    color: #fff;
+    padding: 0.5rem !important;
+    font-size: 16px !important;
+    border-radius: 5rem !important;
+    padding: 6px 20px 6px 20px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.cta {
+    background-color: #084958 !important;
+    color: #fff !important;
+    padding: 0.5rem !important;
+    font-size: 20px !important;
+    border-radius: 5rem !important;
+    padding: 6px 20px 6px 20px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    max-width: 250px;
+}
+
+.cta-vet {
+    background-color: #084958 !important;
+    color: #fff !important;
+    padding: 0.5rem !important;
+    font-size: 20px !important;
+    border-radius: 5rem !important;
+    padding: 6px 20px 6px 20px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+/*Homepage End */
+/* Bwc */
+.user-image img {
+    z-index: 20;
+    width: 100px;
+    height: 100px;
+}
+
+.gradient-text {
+    background-color: #114db2;
+    font-size: 3rem;
+    background-image: linear-gradient(45deg, #114db2, #1ac8db);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+}
+
+.book-confi-para {
+    font-size: 18px;
+    color: #676565a8;
+    font-weight: 500;
+}
+
+/* cards*/
+.light-blue {
+    color: #72c6d9;
+}
+
+.text-muted {
+    color: #919aa3 !important;
+}
+
+.doc-icon {
+    background: linear-gradient(45deg, #114db2, #1ac8db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*Bwc End */
+/*Support */
+.support-bg-2 {
+    background-image: url('../src/img/back-grey.jpg');
+    background-repeat: repeat;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.text-muted1 {
+    color: #919aa3 !important;
+}
+
+.date {
+    color: #114db2;
+}
+
+.read-more {
+    color: red;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.petss {
+    padding: 0rem 5rem;
+}
+
+/*Support end */
+/* Adopt-pet */
+.adopt-pet {
+    /* min-height: 115vh; */
+    background-image: url('../src/img/pets-only.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    z-index: 1;
+    aspect-ratio: 16/9;
+}
+.adopt-pet-text {
+    top: 25%;
+    right: 0;
+}
+.adopt-pet-wrap {
+    background: url('../src/img/pattern-back.webp') no-repeat; 
+    background-size: cover;
+}
+.content {
+    padding: 10rem 0rem 0rem 18rem;
+}
+
+/* Adopt-pet ends */
+/* Feebacks */
+.gradient-text1 {
+    padding-top: 9rem;
+    background-color: red;
+    font-size: 3rem;
+    background-image: linear-gradient(45deg, #114db2, #1ac8db);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bi {
+    color: #d2520d;
+    font-size: 1.5rem;
+}
+
+.gradient-border {
+    /* Border */
+    border: 4px solid transparent !important;
+    border-radius: 20px !important;
+    background: linear-gradient(to right, white, white),
+    linear-gradient(to right, #114db2, #1ac8db);
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+}
+
+.card.gradient-border {
+    width: 20rem;
+}
+
+/* Feedback ends */
+/* Counter */
+.img-overlay {
+    width: 100%;
+    height: 100%;
+    background: #00ceff;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.counter-container {
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.counter-icon {
+    font-size: 60px;
+}
+
+.register-btn:hover {
+    color: #0b2e13 !important;
+    border-color: #0b2e13 !Important;
+    background-color: white !important;
+}
+
+.counters {
+    background-image: url('../src/img/bg-banner.jpg');
+    width: 100vw;
+    min-height: 600px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0;
+    color: white;
+    gap: 5rem;
+    overflow: hidden;
+}
+
+.counter {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.counter-p {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/*Counter Ends */
+/* Footer */
+
+.bg-color {
+    background-color: #114db2;
+}
+
+.social-icons {
+    font-size: 1.5rem;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+}
+
+.log {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.f {
+    color: white;
+}
+
+/* footer ends */
+
+
+
+/*----------------PET-SERVICE-------------------------------------*/
+/*---Home----*/
+.left-PS {
+    margin-top: 2rem;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 5rem 2rem 0rem 0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    text-align: left;
+}
+
+.main-text-PS {
+    font-size: 3.5rem;
+}
+
+.right-PS {
+    width: 36%;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 800; */
+    color: #fff;
+    text-align: left;
+}
+
+.para-pet-PS {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+}
+
+.main-pet-service {
+    background-image: url('../src/img/banner-try.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 8rem;
+}
+
+.Dog-card {
+    width: 14rem;
+}
+
+.dog-desc {
+    font-family: 'Poppins', sans-serif;
+    color: #2a2929ad;
+}
+
+.dog-detail {
+    background-color: #dfdfe370;
+}
+
+.gradient-drop-text {
+    background-color: red;
+    background-image: linear-gradient(45deg, #114db2, #1ac8db);
+    background-size: 100%;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 800;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+select.form-select {
+    width: 10rem;
+    margin-bottom: 38px;
+    /* align-items: center; */
+    /* display: flex; */
+    text-align: center;
+    padding: 0rem 0rem 4px 0rem;
+    height: 27px;
+    background-color: #80808080;
+    border: none;
+}
+
+.drops {
+    padding: 0rem 0rem 0rem 8rem !important;
+}
+
+
+.form-select:focus {
+    border-color: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+select.form-select.form-select-sm {
+    background-color: white;
+    padding: 0rem 3rem 0px 0rem;
+    height: 43px;
+    width: 14rem;
+    margin-bottom: 11px;
+    border: 1px solid lightgray;
+}
+
+.choose {
+    height: 37px !important;
+}
+
+label.form-label#kg {
+    width: 66px;
+}
+
+.categories {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxed label {
+    display: inline-block;
+    width: 65px;
+    height: 50px;
+    padding: 10px;
+    border: solid 2px #ccc;
+    transition: all 0.3s;
+}
+
+.boxed input[type="radio"] {
+    display: none;
+}
+
+.boxed input[type="radio"]:checked + label {
+    border: solid 2px #00ceff;
+    background-color: #00ceff;
+    color: #fff;
+}
+
+.boxed-g input[type="radio"] {
+    display: none;
+}
+
+.boxed-g input[type="radio"]:checked + label {
+    border: solid 2px #00ceff;
+    background-color: #00ceff;
+    color: #fff;
+}
+
+.boxed-g label {
+    width: 90px;
+    border-radius: 7px;
+    display: inline-block;
+    height: 50px;
+    padding: 10px;
+    border: solid 2px #ccc;
+    transition: all 0.3s;
+}
+
+.modal-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+.dropdown-container {
+    width: 300px;
+}
+
+.pet-select-modal .modal-content {
+    padding: 4rem;
+}
+
+.select-year {
+    margin-top: 28px;
+}
+
+.add-pet {
+    border-radius: 10px !important;
+}
+
+.lbs-kg {
+    margin-top: 20px !important;
+}
+
+/* -----------------Vet-Service----------------*/
+.main-vet-service {
+    background-image: url('../src/img/two-dog-banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 8rem;
+}
+
+.vet-left {
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 9rem 2rem 0rem 0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    text-align: left;
+}
+
+.para-pet-vet {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+}
+
+.right-vet {
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 800; */
+    color: #fff;
+    text-align: left;
+}
+
+/*------------BwcV---------------*/
+.gradient-text-VS {
+    background-color: red;
+    font-size: 40px;
+    background-image: linear-gradient(50deg, #114db2, #1AC6DA, #1AC6DA);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gradient-subtext-VS {
+    background-color: red;
+    font-size: 18px;
+    background-image: linear-gradient(50deg, #114db2, #1AC6DA, #1AC6DA);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.para-text-vet {
+    font-size: 14px;
+}
+
+.lead-vet {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.vet-desc {
+    padding: 3rem 4rem 2rem 3rem;
+}
+
+.vet-img {
+    padding: 4rem 0rem 2rem 0rem;
+    margin-left: 3rem;
+}
+
+.w {
+    width: 90%;
+}
+
+/*-----------------PET 24-7 HELP ----------------------*/
+.gradient-text-vet-help {
+    background-color: red;
+    font-size: 45px;
+    background-image: linear-gradient(50deg, #114db2, #1AC6DA, #1AC6DA);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.help-bg-2 {
+
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+/*-------------------PET-Walker------------------*/
+.mainPW {
+    background-image: url('../src/img/Banner-PW.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 8rem;
+}
+
+.main-text-PW {
+    font-size: 45px;
+}
+
+.para-pet-PW {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+}
+
+.cta-pw {
+    background-color: #084958 !important;
+    color: #fff;
+    padding: 0.5rem !important;
+    font-size: 18px !important;
+    border-radius: 5rem !important;
+    padding: 2px 20px 2px 20px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.walker-desc {
+    padding: 3rem 0rem 1rem 20rem !important;
+}
+
+.w-wi {
+    margin: -5rem 0rem 0rem 10rem;
+    width: 118%;
+}
+
+.section-login {
+    background-color: #1AC6DA;
+}
+
+.sidebar-nav ul li a {
+
+    font-size: 26px;
+
+    text-decoration: none;
+
+    display: block;
+
+    padding: 6px 10px;
+
+    transition: 0.5s;
+
+}
+
+.sidebar-nav ul li a:hover {
+    background-color: #eeeeee;
+    border-radius: 4px;
+}
+
+.main-side {
+    padding: 2rem 4rem 0rem 2rem;
+}
+
+.sidebar-nav .offcanvas {
+    width: 220px;
+    border: none;
+}
+
+.sidebar-nav .offcanvas ul li a span {
+    font-size: 18px;
+    position: relative;
+    top: -4px;
+    transition: 0.5s;
+
+}
+
+.sidebar-nav .offcanvas.show ul li a:hover span {
+    padding-left: 10px;
+}
+
+.sidebar-nav .dropdown-toggle::after {
+    position: relative;
+    top: 3px;
+}
+
+.dash-btn {
+    padding: 0rem 7rem 0rem 6rem;
+}
+
+
+.circles {
+    width: 20px;
+}
+
+.ctab {
+    background-color: #ff1d09 !important;
+    color: #fff;
+    padding: 0.5rem !important;
+    font-size: 15px !important;
+    border-radius: 5rem !important;
+    padding: 4px 12px 3px 12px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.gradient-text-D {
+    background-color: red;
+    font-size: 19px;
+    background-image: linear-gradient(50deg, #114db2, #1AC6DA, #1AC6DA);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ques {
+    font-weight: 600;
+}
+
+.doc-pro {
+    background-color: #d4d4d48a !important;
+    height: 200px;
+}
+
+.offcanvas-body, .offcanvas-header {
+    background-color: #1ac6da;
+}
+
+/* navbar-2 */
+
+/*profile*/
+.user-img {
+    z-index: 20;
+    width: 100px;
+    height: 100px;
+}
+
+.hand {
+    z-index: 20;
+    width: 200px;
+    height: 200px;
+}
+
+.bwcw {
+    z-index: 20;
+    width: 300px;
+    height: 200px;
+}
+
+.gradient-subtext-PW {
+    /* background-color: red; */
+    font-size: 18px;
+    color: #7a7979;
+    /* background-image: linear-gradient(50deg, #114db2, #1AC6DA ,#1AC6DA); */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.col-lg-8.text-left {
+    padding: 5rem 0rem 2rem 5rem;
+}
+
+
+.two-four {
+    text-align: end;
+}
+
+.dash a#basic-nav-dropdown {
+    margin-left: 4rem;
+}
+
+.sc-fjvvzt, .bBCvMk {
+    height: 100vh !important;
+}
+
+.sc-JrDLc, lhYbII {
+    height: 100vh;
+    background-color: #1ac6da !important;
+}
+
+.dash-img {
+    width: 120px;
+}
+
+
+/*LOGIN*/
+.mainL {
+    background-image: url('../src/img/login-page.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 8rem;
+}
+
+.right-PS {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 800; */
+    color: #fff;
+}
+
+.pet-deserve {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.pet-adopt-text {
+    font-size: 26px;
+}
+
+pet-text-head {
+    font-size: 3.5rem;
+}
+
+.para-petL {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 1rem;
+    margin-top: 40px;
+}
+
+.socials {
+    width: 40px;
+    margin-bottom: 4px;
+    height: 36px;
+}
+
+.btn-social {
+    width: 10rem;
+    border: 2px solid;
+}
+
+.gradient-social {
+    border: 3px solid transparent !important;
+    border-radius: 10px !important;
+    background: linear-gradient(to right, white, white), linear-gradient(to left, #114db2, #1ac8db, #1ac8db);
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+}
+
+.middle {
+    color: #676565a8;
+}
+
+.middle::before, .middle::after {
+    display: inline-block;
+    content: "";
+    border-top: 3px solid #9b9b9c;
+    width: 14rem;
+    margin: 0 1rem;
+    transform: translateY(-0.3rem);
+}
+
+.btn-color {
+    background-image: linear-gradient(45deg, #114db2, #1ac8db);
+    background-size: 100%;
+    background-repeat: repeat;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-L {
+    margin-top: 2rem;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 8rem 2rem 0rem 0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+
+.gradient-textL {
+    background-color: red;
+    font-size: 3rem;
+    background-image: linear-gradient(45deg, #114db2, #1ac8db);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pet-filter {
+    padding: 0px;
+}
+
+.main-text-L {
+    font-size: 45px;
+}
+
+a#collasible-nav-dropdown {
+    color: #fff;
+}
+
+
+/* Appointments form */
+.appointment-con h1 {
+    font-size: 35px;
+}
+
+.p10 {
+    padding-top: 10rem;
+}
+
+.leftside {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.labelexpanded {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.labelexpanded > input {
+    display: none;
+}
+
+.labelexpanded input:checked + .radio-btns {
+    border: 2px solid #00ceff;
+}
+
+.labelexpanded input:checked + .radio-btnss {
+    border: 2px solid #00ceff;
+}
+
+.radio-btns {
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    height: 110px;
+    border-radius: 15px;
+    border: 1px solid #bbe1eaba;
+}
+
+.appointment-con {
+    padding: 11rem 8rem 0rem 8rem;
+}
+
+.pb-img {
+    width: 20%;
+}
+
+.cta-ab {
+    background-color: #084958 !important;
+    color: #fff;
+    padding: 0.5rem !important;
+    font-size: 20px !important;
+    border-radius: 0.7rem !important;
+    padding: 6px 20px 6px 20px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.radio-btnss {
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    height: 110px;
+    border-radius: 15px;
+    border: 1px solid #bbe1eaba;
+}
+
+.add-pet {
+    padding-bottom: 11rem;
+}
+
+.docpro-img {
+    height: 120px;
+    width: 120px;
+}
+
+.docpro-img-sec {
+    height: 70px;
+    width: 70px;
+}
+
+.review-date {
+    font-size: 12px;
+}
+
+.fi {
+    font-size: 15px !important;
+    color: rgb(246, 222, 7);
+}
+
+.dist {
+    font-size: 10px;
+    color: #808080c2;
+}
+
+.docname {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.amt {
+    margin-left: 10rem;
+    color: #00ceff;
+}
+
+.text-d {
+    color: rgb(114, 109, 109);
+}
+
+.text-l {
+    color: rgb(186, 186, 186);
+}
+
+.doc-card {
+    border: 1px solid #00eefc;
+    transition: 0.2s;
+}
+
+.-mt-12 {
+    margin-top: -5px;
+}
+
+.desc-dr-pro {
+    font-size: 14px;
+}
+
+.main-A {
+    background-image: url('../src/img/bg-abouy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 8rem;
+}
+
+.para-pet-a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    text-align: left;
+    line-height: 24px;
+    margin-bottom: 2rem;
+}
+
+.main-text-a {
+    line-height: 56px;
+}
+
+.w-s {
+    width: 90%;
+}
+
+.vet-img-a {
+    margin-left: 3rem;
+}
+
+.gradient-text-a {
+    background-color: red;
+    font-size: 45px;
+    background-image: linear-gradient(50deg, #114db2, #1AC6DA, #1AC6DA);
+    background-size: 100%;
+    background-repeat: repeat;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p-about {
+    background-color: red;
+    background-image: linear-gradient(50deg, #114db2, #1AC6DA, #1AC6DA);
+    background-size: 100%;
+    background-repeat: repeat;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.lead-about {
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.found-name {
+    background-color: red;
+    background-image: linear-gradient(50deg, #114db2, #1AC6DA, #1AC6DA);
+    background-size: 100%;
+    background-repeat: repeat;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.position {
+    margin-top: -10px;
+}
+
+.found-img {
+    width: 20%;
+    margin: -5rem auto !important;
+}
+
+.found-section {
+    margin-top: 8rem;
+}
+
+.pro-one-con {
+    margin-top: 7rem;
+}
+
+.found-row {
+    --bs-gutter-x: 10rem;
+}
+
+.found-body {
+    margin-top: 5rem
+}
+
+.found-card {
+    background-color: #c2c2c275;
+    border: none;
+
+}
+
+.our-vision {
+    background-color: red;
+    font-size: 45px;
+    background-image: linear-gradient(50deg, #114db2, #1AC6DA, #1AC6DA);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pet-type {
+    font-size: 14px;
+}
+
+button.mb-2.availability-modal.btn.btn-primary {
+    background-color: #1ac6da;
+}
+
+a.fc-event i {
+    color: aliceblue;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fc-daygrid-event-harness {
+    margin: 2px 1px 4px 1px;
+    background-color: #2c3e50;
+}
+
+a.fc-col-header-cell-cushion {
+    color: #2c3e50;
+}
+
+.fc .fc-daygrid-day-number {
+    color: #2c3e50;
+}
+
+.fc-view-harness.fc-view-harness-active {
+    height: 432px !important;
+}
+
+thead.pet-head {
+    position: sticky;
+    top: -1px;
+    margin: 0px;
+}
+
+input#custom-switch {
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+input#LBs {
+    padding: 0.7rem 0.5rem 0.4rem 0.5rem;
+}
+
+.fc-view-container {
+    overflow-x: scroll;
+}
+
+.dropdown-menu.show {
+    margin-bottom: 0.5rem;
+}
+
+.fc .fc-scrollgrid, .fc .fc-scrollgrid table {
+    table-layout: unset;
+    width: 100%;
+}
+
+.fc-dayGridMonth-view.fc-view.fc-daygrid {
+    overflow: hidden scroll;
+}
+.notification-group{
+    overflow-y: scroll;
+    max-height: 82vh;
+    overflow-x: hidden;
+}
+
+#cta-desc {
+    margin-top: 4rem !important;
+}
+
+.support-img {
+    /* margin-top: -3rem;
+    width: 80%; */
+    position: relative;
+    height: 350px;
+}
+
+/*----------------MEDIA QUERY----------------------*/
+@media screen and (min-width: 1920px) {
+
+    .nav-big {
+        max-width: 80vw;
+        padding-right:0.5px;
+        padding-left:0.5px;
+    }
+
+    .footer {
+        max-height: 100vh;
+    }
+
+    .left {
+        width: 600px;
+        padding: 3rem 2rem 4rem 0rem;
+        background-size: contain;
+        height: 350px;
+    }
+
+    .right {
+        width: 36%;
+    }
+
+    .para-pet {
+        margin-bottom: 3rem;
+        /* margin-top: 40px; */
+    }
+
+    .main-text {
+        font-size: 3rem;
+    }
+
+    .content {
+        padding: 13rem 0rem 0rem 18rem;
+    }
+
+    .vet-left {
+        padding: 12rem 2rem 0rem 0rem;
+    }
+
+    #cta-desc {
+        margin-top: 8rem !important;
+    }
+
+}
+
+@media screen and (max-width: 1170px) {
+
+    .left {
+        padding: 2rem 2rem 2rem 0rem;
+    }
+
+    .left-PS {
+        width: 70%;
+    }
+
+    .right-PS {
+        width: 58%;
+    }
+
+    .main-text {
+        font-size: 20px;
+    }
+
+
+    .button {
+        padding: 1rem 1.75rem;
+    }
+
+    .button__icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .petss {
+        padding: 0rem;
+    }
+
+    .para-pet {
+        font-size: 14px;
+    }
+
+    .cta {
+        font-size: 18px;
+    }
+
+    .counter-p {
+        font-size: 22px;
+    }
+
+    .counter {
+        font-size: 30px;
+    }
+
+    .counter-icon {
+        font-size: 50px;
+    }
+
+    #cta-desc {
+        margin-top: 8rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .feeds {
+        flex-direction: column;
+    }
+
+    .card.gradient-border {
+        /* margin: 0rem 0rem 0rem -1rem; */
+        width: 20rem;
+    }
+
+    .cta {
+        font-size: 20px !important;
+    }
+
+    .found-body {
+        margin-top: 6rem;
+    }
+
+    p.lead-vet.lead-about.lead-subp {
+
+        line-height: 28px;
+    }
+
+    .main-text-a {
+        line-height: 70px;
+    }
+
+    .main {
+        background-repeat: no-repeat;
+        background-position: inherit;
+    }
+
+    .main-1 {
+        height: 65vh;
+    }
+
+    .left {
+        width: auto;
+        padding: 4rem 2rem 6rem 0rem;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .lead-subp {
+        margin: 2rem 1rem 3rem 2rem !important;
+    }
+
+    .w-s {
+        width: 65% !important;
+        margin-left: 4rem !important;
+    }
+
+    .w-a {
+        width: 40%;
+        margin-left: 70px;
+    }
+
+    .gradient-text-a {
+        padding: 1rem 4rem;
+    }
+
+    .p-about {
+        margin: 2rem 1rem 3rem 4rem !important;
+    }
+
+    .our-vision {
+        margin: 1rem 1rem 1rem 2rem;
+        font-size: 50px;
+    }
+
+    .sub-p-about {
+        margin: 2rem 1rem 3rem 4rem !important;
+    }
+
+    .left-L {
+        width: 68%;
+    }
+
+    .dash-btn {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .navbar-toggler {
+        margin: -1.5rem 7rem 0rem 0rem;
+    }
+
+    .w-wi {
+        margin: -5rem 0rem 0rem 10rem;
+        width: 60%;
+    }
+
+    h1.gradient-text-vet-help {
+        margin: 1rem 1rem 3rem 6rem;
+        font-size: 30px !important;
+    }
+
+    .gradient-text-vet-help {
+        background-color: red;
+        font-size: 30px;
+    }
+
+    .w {
+        width: 50%;
+        margin-left: 4rem;
+    }
+
+    a.cta-vet.mt-5 {
+        margin: 1rem 1rem 1rem 6rem;
+    }
+
+    .cta-vet {
+        margin: 1rem 1rem 1rem 0rem;
+    }
+
+    .lead-vet {
+        margin: 2rem 1rem 3rem 6rem;
+    }
+
+    .h1.gradient-text-vet-help {
+        margin: 1rem 3rem 1rem 6rem;
+    }
+
+    .cta-vet {
+        font-size: 12px !important;
+    }
+
+    .row.col-12.g-1.species-breed {
+        flex-direction: column !important;
+    }
+
+    .left-PS {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .right-PS {
+        width: 65%;
+    }
+
+    .dogs-col {
+        padding-left: 8rem !important;
+    }
+
+
+    .drops {
+        padding: 0rem 0rem 0rem 2rem !important;
+    }
+
+
+    .card-group .row {
+        flex-direction: column;
+        padding: 0rem 5rem;
+    }
+
+    .col-lg-8.text-left {
+        padding: 2rem 0rem 2rem 3rem !important;
+    }
+
+    .support-bg-2 {
+        background-repeat: repeat;
+    }
+
+    .adopt-pet {
+        aspect-ratio: 4/3;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #fff;
+    }
+
+    .content {
+        padding: 5.5rem 0rem 0rem 7rem;
+    }
+
+    .lead-vet {
+        margin: 2rem 1rem 3rem 0rem;
+    }
+
+    a.cta-vet.mt-5 {
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .content a.cta {
+        font-size: 23px !important;
+    }
+
+    .pet-deserve {
+        font-size: 26px;
+    }
+
+    .content h1 {
+        font-size: 22px;
+    }
+
+    .para-pet-PS {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    img.w-100.-mt {
+        padding: 0rem 4rem;
+    }
+
+    /*header starts*/
+    .collapse.in {
+        display: block !important;
+        padding: 0;
+        clear: both;
+    }
+
+    .support-bg {
+        padding: 1rem 2rem 0rem 3rem;
+        background-repeat: repeat;
+    }
+
+    
+
+    /*header ends*/
+    .para-pet {
+        font-size: 18px;
+        margin-bottom: 3rem;
+        /* margin-top: 40px; */
+        margin-top: 5px;
+        /* margin-left: 30px; */
+        max-width: none;
+    }
+
+    .section-login {
+        padding: 8rem 2rem 4rem 3rem;
+    }
+    .table-responsive{
+        margin-right: -2rem!important;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+
+    .availability-button {
+        text-align: center;
+    }
+
+    .fc-header-toolbar.fc-toolbar.fc-toolbar-ltr {
+        flex-direction: column;
+    }
+
+    .fc .fc-toolbar-title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .right-a {
+        margin-left: 2rem;
+        width: 70%;
+    }
+
+    .w-s {
+        width: 100% !important;
+        margin-left: 0rem !important;
+    }
+
+    h1.gradient-text-vet-help {
+        font-size: 44px !important;
+        margin: 1rem 1rem 0rem 0rem;
+    }
+
+    .w-q {
+        width: 59%;
+        margin-left: 5rem;
+    }
+
+    .para-pet-a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .left-a {
+        width: 80%;
+        padding: 7rem 2rem 2rem 2rem;
+    }
+
+    .main-text-a {
+        font-size: 5rem;
+    }
+
+    .main-A {
+        background-position: unset;
+    }
+
+    .main-text-PS {
+        font-size: 3.8rem;
+    }
+
+    .right-PS {
+        width: 90%;
+    }
+
+    .mainPW {
+        background-position: unset;
+    }
+
+    .main-pet-service {
+
+        background-position: unset;
+    }
+
+    .main-vet-service {
+        background-position: inherit;
+    }
+
+    .vet-left {
+        width: 100%;
+    }
+
+    .main-text {
+        font-size: 36px;
+    }
+
+    .para-pet-vet {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .right-vet {
+        width: 100%;
+    }
+
+    .cta-vet {
+        font-size: 30px !important;
+    }
+
+    .lead-vet {
+        margin: 2rem 1rem 3rem 4rem;
+        font-size: 26px;
+        font-weight: 300;
+    }
+
+
+    .w {
+        width: 75%;
+        margin-left: 5rem;
+    }
+
+    .vet-left {
+        width: 100%;
+        padding: 14rem 2rem 0rem 0rem;
+    }
+
+    .fc-view-harness.fc-view-harness-active {
+        height: 375px !important;
+    }
+    .notification-group{
+        overflow-y: scroll;
+        max-height: 82vh;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 630px) {
+
+    .pb-img {
+        width: 70%;
+    }
+
+    .fc .fc-toolbar-title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .left-L {
+        width: 85%;
+        padding: 6rem 0rem 0rem 0rem;
+    }
+
+    .social {
+        flex-direction: column !important;
+        padding-left: 12rem;
+    }
+
+    .middle::before, .middle::after {
+        width: 8rem;
+
+    }
+
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .dash-btn {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    div#basic-navbar-nav {
+        background-color: #1ac6da;
+        border: 1px solid white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .fc-view-harness.fc-view-harness-active {
+        height: 400px !important;
+    }
+
+    .adopt-pet { 
+        aspect-ratio: unset;
+        height: 600px;
+        background-position: 60%;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .dl a#basic-nav-dropdown {
+        position: fixed;
+        right: 2rem;
+    }
+    .appoint-display{
+        overflow-y: scroll;
+        max-height: 80vh;
+        overflow-x: hidden;
+    }
+    .mypets-add{
+        margin-left:1rem
+    }
+    .fc-dayGridMonth-view.fc-view.fc-daygrid {
+        overflow: scroll scroll;
+    }
+    .feeds {
+        flex-direction: column;
+    }
+
+    .card.gradient-border {
+        /* margin: 0rem 0rem 0rem -1rem; */
+        width: 20rem;
+    }
+
+    .lead-about {
+        line-height: 18px;
+    }
+
+    .nav-items {
+        margin-right: 0px
+    }
+
+    .pet-select-modal .modal-content {
+        padding: 0rem;
+    }
+
+    .pet-table-data {
+        margin: 1rem;
+    }
+
+    .navi-link.align-items-baseline.ms-auto.text-light.navbar-nav {
+        align-items: center !important;
+    }
+
+    .fc .fc-toolbar-title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .fc-header-toolbar.fc-toolbar.fc-toolbar-ltr {
+        flex-direction: column;
+    }
+
+    .availability-button {
+        text-align: center;
+    }
+
+    .main-text-a {
+        line-height: 35px;
+    }
+
+    .gradient-text-a {
+        padding: 1rem 1rem;
+    }
+
+    .right-a {
+        width: 80%;
+    }
+
+    .main-A {
+        background-position: unset;
+    }
+
+    .left-a {
+        margin-top: 2rem;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .q-sec {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .w-q {
+        margin-left: 4rem;
+        width: 59%;
+    }
+
+    .cta-q {
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+
+    .w-s {
+        width: 75% !important;
+        margin-left: 0rem !important;
+    }
+
+    .pb-img {
+        width: 70%;
+    }
+
+    .content {
+        padding: 7.5rem 0rem 0rem 1rem;
+    }
+
+    .two-four {
+        text-align: start !important;
+    }
+
+    .main-side {
+        padding: 1rem 0rem 0rem 0rem !important;
+    }
+
+    .navbar-toggler {
+        margin: 0rem 1rem 0rem 0rem !important;
+    }
+
+    .dash a#basic-nav-dropdown {
+        margin-left: 1rem;
+    }
+
+    .w-wi {
+        margin: -5rem 0rem 0rem 0rem;
+        width: 84%;
+    }
+
+    .mainPW {
+        background-repeat: inherit;
+        background-position: unset;
+    }
+
+    .cta-pw {
+        background-color: #084958 !important;
+        color: #fff;
+        padding: 0.5rem !important;
+        font-size: 14px !important;
+    }
+
+    .main-text-PW {
+        font-size: 24px;
+    }
+
+    .para-pet-PW {
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+    }
+
+    .gradient-text-vet-help {
+        font-size: 30px;
+        margin: 12px 18px 12px 12px !important;
+    }
+
+    .lead-vet {
+        margin: 12px 0px 12px 12px !important;
+        font-size: 16px;
+    }
+
+    .cta-vet {
+        font-size: 12px !important;
+    }
+
+    a.cta-vet.mt-5 {
+        margin-left: 12px;
+    }
+
+    .main-vet-service {
+
+        background-position: left;
+    }
+
+    .vet-left {
+        padding: 7rem 2rem 0rem 1rem;
+        width: 100%;
+    }
+
+    .right-vet {
+        width: 100%;
+    }
+
+    .para-pet-vet {
+        font-size: 15px;
+        margin-left: 18px;
+    }
+
+    .gradient-text-VS {
+        font-size: 22px;
+    }
+
+    .hand-auto {
+        margin: auto;
+    }
+
+    input#LBs {
+        width: 60px;
+    }
+
+    .ages {
+        margin-right: 1rem;
+    }
+
+    .lbs-kg {
+        margin-top: 48px !important;
+    }
+
+    .row.col-12.g-1.species-breed {
+        flex-direction: column !important;
+    }
+
+    .select-year {
+        height: 36px !important;
+        padding: 0rem 92px 4px 0rem !important;
+        margin-bottom: 6px !important;
+    }
+
+    .year {
+        margin-left: 4rem;
+    }
+
+    div#basic-navbar-nav {
+        background-color: #1ac6da;
+        border: 1px solid white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .content {
+        padding: 8.5rem 0rem 0rem 12rem;
+    }
+
+    .content p {
+        font-size: 13px;
+    }
+
+    .gradient-text {
+        font-size: 37px;
+    }
+
+    .book-confi-para {
+        font-size: 15px;
+    }
+
+    /* .font-poppins {
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;
+    } */
+
+    .gradient-text1 {
+        font-size: 40px;
+    }
+
+    .card-group .row {
+        padding: 0rem 2.5rem;
+    }
+
+    .left-PS {
+        width: 100%;
+        padding: 2rem 2rem 0rem 0rem;
+    }
+
+    .right-PS {
+        width: 100%;
+    }
+
+    .main-pet-service {
+        background-position: unset;
+    }
+
+    .para-pet-PS {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+    }
+
+    select.form-select {
+        width: 5rem;
+    }
+
+    .drops {
+        padding: 0rem 0rem 0rem 3rem !important;
+    }
+
+    .dogs-col {
+        padding-left: 1rem !important;
+    }
+
+    .col-4.selct-opt {
+        margin-right: 4rem;
+    }
+
+    .left {
+        width: 100%;
+        padding: 4rem 4rem 0rem 2rem;
+        margin: auto;
+    }
+
+    .main {
+        background-position: left;
+        padding-top: 7rem;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .lead {
+        font-size: 15px;
+    }
+
+    .main-1 {
+        height: 80vh;
+    }
+
+    .col-lg-8.text-left {
+        padding: 2rem 1rem 2rem 2rem !important;
+    }
+
+    .counters {
+        flex-direction: column;
+    }
+
+    .counter-container {
+        margin: 0px auto;
+    }
+
+    .gradient-text1 {
+        padding-top: 4rem;
+    }
+
+    .gradient-border {
+        width: 31rem !important;
+    }
+
+    .fc-view-harness.fc-view-harness-active {
+        height: 400px !important;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .dl a#basic-nav-dropdown {
+        position: fixed;
+        right: 2rem;
+    }
+    .mypets-add{
+        margin-left:1rem
+    }
+    .fc-dayGridMonth-view.fc-view.fc-daygrid {
+        overflow: scroll scroll;
+    }
+    .our-mission{
+        margin-top: -12rem;
+    }
+    .button-toggled {
+        display: none !important;
+    }
+
+    .lead-about {
+        line-height: 18px;
+    }
+
+    table.fc-col-header {
+        width: 800px !important;
+    }
+
+    table.fc-scrollgrid-sync-table {
+        width: 800px !important;
+    }
+
+    .profile, .credentials {
+        margin-left: 0.5rem;
+    }
+
+    .profile-card {
+        overflow-y: auto;
+        height: 88%;
+    }
+
+    .col.main-side {
+
+        height: 100vh;
+    }
+
+    .gen-res {
+        flex-direction: column;
+    }
+
+    .pet-select-modal .modal-content {
+        padding: 0rem;
+    }
+
+    .pet-table-data {
+        margin-right: 1rem;
+    }
+
+    .section-login {
+        padding: 6rem 0rem 4rem 0rem;
+    }
+
+    .navi-link.align-items-baseline.ms-auto.text-light.navbar-nav {
+        align-items: center !important;
+    }
+
+    .availability-button {
+        text-align: center;
+    }
+
+    .fc-header-toolbar.fc-toolbar.fc-toolbar-ltr {
+        flex-direction: column;
+    }
+
+    .w {
+        width: 60%;
+        margin-left: 4rem;
+    }
+
+    .main-text {
+        font-size: 24px;
+    }
+
+    .card.gradient-border {
+        width: 18rem !important;
+    }
+
+    .cta-vet {
+
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .gradient-text-a {
+        padding: 1rem 1rem;
+    }
+
+    .w-s {
+        width: 75% !important;
+        margin-left: 0rem !important;
+    }
+
+    .q-sec {
+        padding: 0rem 0rem 1rem 0rem;
+    }
+
+    .cta-q {
+        margin-left: 1rem;
+    }
+
+    .left-a {
+        margin-top: 0rem;
+        width: 100%;
+        padding: 2rem 2rem 0rem 0rem;
+    }
+
+    .right-a {
+        margin-left:1rem;
+        width: 100%;
+    }
+
+    .main-A {
+
+        background-position: unset;
+    }
+
+    .main-arrow {
+        padding: 26px;
+    }
+
+    .main-text-a {
+        font-size: 3rem;
+        margin-left: 1rem;
+        line-height: 40px;
+    }
+
+    .para-pet-a {
+        font-size: 16px;
+        line-height: 28px;
+        margin-right: 1rem;
+
+    }
+
+    .w-q {
+        margin-left: 0rem;
+        width: 59%;
+    }
+
+    .q-img {
+        padding: 2rem 0rem 1rem 5rem;
+        margin-left: 0rem;
+    }
+
+    .pb-img {
+        width: 140% !important;
+    }
+
+    .appointment-con {
+        padding: 11rem 8rem 0rem 2rem !important;
+    }
+
+    .gradient-border {
+        width: 19rem !important;
+    }
+
+    .navbar-toggler {
+        margin: 0rem 1rem 0rem 0rem !important;
+    }
+
+    .middle::before, .middle::after {
+        width: 3rem;
+    }
+
+    .gradient-textL {
+        font-size: 2rem;
+    }
+
+    .social {
+        flex-direction: column !important;
+        padding-left: 7rem;
+    }
+
+    .main-text-L {
+        font-size: 35px;
+    }
+
+    .left-L {
+        width: 100%;
+        padding: 4rem 0rem 0rem 0rem;
+    }
+
+    .dash-btn {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .offcanvas {
+        width: 75% !important;
+    }
+
+    .two-four {
+        text-align: start !important;
+    }
+
+    .fc-view-harness.fc-view-harness-active {
+        height: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+
+    .dl a#basic-nav-dropdown {
+        position: fixed;
+        right: 2rem;
+    }
+    .mypets-add{
+        margin-left:1rem
+    }
+    .drops {
+        padding: 0rem 0rem 0rem 0rem !important;
+    }
+    .filter-group{
+        display: flex;
+        gap:2rem;
+    }
+    .fc-dayGridMonth-view.fc-view.fc-daygrid {
+        overflow: scroll scroll;
+    }
+    /*test*/
+    .button-toggled {
+        display: none !important;
+    }
+    .our-mission{
+        margin-top: -10rem;
+    }
+    
+
+    p.pet-deserve {
+        font-size: 17px;
+    }
+
+    p.pet-adopt-text.mb-md-2.mb-5 {
+        font-size: 22px;
+    }
+
+
+
+
+    .profile-card {
+        overflow-y: auto;
+        height: 88%;
+    }
+
+    .col.main-side {
+
+        height: 100vh;
+    }
+
+    table.fc-col-header {
+        width: 800px !important;
+    }
+
+    table.fc-scrollgrid-sync-table {
+        width: 800px !important;
+    }
+
+    .profile, .credentials {
+        margin-left: 0.5rem;
+    }
+
+    .pet-select-modal .modal-content {
+        padding: 0rem;
+    }
+
+    gen-res {
+        flex-direction: column;
+    }
+
+
+    .pet-table-data {
+
+        margin-right: 0rem;
+
+    }
+
+    .section-login {
+        padding: 6rem 0rem 4rem 0rem;
+    }
+
+    .navi-link.align-items-baseline.ms-auto.text-light.navbar-nav {
+        align-items: center !important;
+    }
+
+    .availability-button {
+        text-align: center;
+    }
+
+    .fc-header-toolbar.fc-toolbar.fc-toolbar-ltr {
+        flex-direction: column;
+    }
+
+    .fc .fc-toolbar-title {
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .gradient-text-a {
+        padding: 1rem 1rem;
+    }
+
+    .appointment-con {
+        padding: 11rem 6rem 0rem 2rem !important;
+    }
+
+    .pb-img {
+        width: 140% !important;
+    }
+
+    .para-pet-PW {
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+    }
+
+    .bwcw {
+        z-index: 20;
+        width: 220px;
+        height: 180px;
+    }
+
+    .main-text-PS {
+        font-size: 2.5rem;
+    }
+
+    .hand {
+        z-index: 20;
+        width: 160px;
+        height: 200px;
+    }
+
+    .w {
+        width: 74%;
+        margin-left: 2rem;
+    }
+
+    .gradient-border {
+        width: 18rem !important;
+    }
+
+    .content {
+        padding: 11.5rem 0rem 0rem 0rem;
+    }
+
+    .feeds {
+        flex-direction: column;
+    }
+
+    .navbar-toggler {
+        margin: 0rem 1rem 0rem 0rem !important;
+    }
+
+    .mainL {
+        background-position: top;
+    }
+
+    .gradient-textL {
+        font-size: 2rem;
+    }
+
+    .social {
+        flex-direction: column !important;
+        padding-left: 5rem;
+    }
+
+    .left-L {
+        width: 100%;
+        padding: 3rem 0rem 0rem 0rem;
+    }
+
+    .middle::before, .middle::after {
+        width: 2rem;
+    }
+
+    .offcanvas {
+        width: 75% !important;
+    }
+
+    .two-four {
+        text-align: start !important;
+    }
+
+    .dash a#basic-nav-dropdown {
+        margin-left: 1rem;
+    }
+
+    .main-side {
+        padding: 2rem 0rem 0rem 1rem !important;
+    }
+
+    .msg.col-auto {
+        font-size: 13px;
+    }
+
+    .fc-view-harness.fc-view-harness-active {
+        height: 400px !important;
+    }
+
+    .lead-about {
+        line-height: 18px;
+    }
+
+}
+
+@media (min-width: 786px) {
+    .container {
+      max-width: 1920px !important;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1710px) {
+    
+    .book-confi-head{
+        padding-top: 75px;
+    }
+
+}
+
+/** Loader **/
+/* Add custom CSS to remove the background */
+.custom-swal-container .swal2-popup {
+    background: transparent !important;
+
+}
+
+
+/* Add this CSS to your stylesheet */
+/* Sidebar Mobile Styles */
+
+
+#sidebar.open {
+    display: block;
+    opacity: 1; /* Make it fully opaque when open */
+}
+
+
+/* Mobile Sidebar Toggle Button Styles */
+.mobile-sidebar-toggle {
+    display: none; /* Hide by default on larger screens */
+    position: fixed;
+    top: 0px; /* Adjust the top position as needed */
+    left: 0px; /* Adjust the left position as needed */
+    cursor: pointer;
+    z-index: 9999;
+    background: #1ac6da;
+    padding: 24px;
+}
+
+.mobile-sidebar-toggle img {
+    width: 30px; /* Adjust the size of the hamburger icon */
+    height: auto;
+
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    /* Show the mobile sidebar toggle button */
+    .mobile-sidebar-toggle {
+        display: block;
+    }
+
+    /* Hide the main sidebar on mobile */
+    #sidebar {
+        display: none;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+
+    }
+
+    /*TODO :: fix this on other pages where no sidebar*/
+    .dl .dropdown-toggle .group {
+        width: 100%;
+    }
+
+    .dl .dropdown-toggle .group .menu {
+        display: none;
+    }
+}
+
+/* Custom */
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #1150b3;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+
+#testimonialCarousel .gradient-border::before {
+    content: '"';
+    position: absolute;
+    font-size: 3rem;
+    background: #fff;
+    text-align: left;
+    top: -48px;
+    left: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    z-index: 1;
+    width: 35px;
+    color: #1150b3;
+    rotate: 180deg;
+}
+
+#testimonialCarousel .gradient-border::after {
+    content: '"';
+    position: absolute;
+    font-size: 3rem;
+    background: #fff;
+    text-align: left;
+    bottom: -48px;
+    right: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    z-index: 1;
+    width: 35px;
+    color: #00ceff;
+}
+
+#testimonialCarousel .gradient-border .card-body {
+    z-index: 11;
+}
+
+
+.pet-lightbox-toggle div {
+    width: 100%; 
+    height: 70vh; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pet-photo {
+    height: 200px; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+
+    #petCarousel .carousel-control-next, #petCarousel .carousel-control-prev {
+        width: 33.3333%;
+        height: 70vh;
+        background: #000;
+        opacity: 0.5;
+    }
+
+    #petCarousel .carousel-control-next:hover, #petCarousel .carousel-control-prev:hover {
+        opacity: 0.2;
+    }
+
+    .pet-photo {
+        height: 250px;
+    }
+
+}
